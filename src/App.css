@@ -1,0 +1,117 @@
+/* Global styling */
+.App {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center; /* Center elements horizontally */
+  justify-content: center; /* Center elements vertically */
+  height: 100vh; /* Full height of the viewport */
+  text-align: center; /* Center the text */
+  background-color: #b4b8e4; /* Background color for the page */
+}
+h1 {
+  margin-top: -190px; /* Move the title upwards */
+}
+
+/* Styling for buttons */
+button {
+  margin: 10px; /* Add space between buttons */
+  padding: 10px 20px; /* Padding inside the buttons */
+  font-size: 16px; /* Font size for button text */
+  cursor: pointer; /* Change cursor to pointer when hovering */
+  border-radius: 5px; /* Rounded corners for buttons */
+  background-color: #5a6264; /* Default button background color */
+  color: rgb(230, 231, 238); /* Button text color */
+  border: none; /* Remove default border */
+}
+
+button:hover {
+  background-color: #0e5886; /* Darker blue when hovered */
+}
+.button-container {
+  display: flex;
+  flex-wrap: wrap;  /* Allow wrapping if needed */
+  justify-content: center;  /* Center the buttons horizontally */
+  align-items: center;  /* Align buttons vertically */
+  gap: 10px;  /* Space between buttons */
+  margin-top: 10px;
+}
+.mind-text {
+  font-size: 24px;                /* Adjust font size */
+  color: #000000;                 /* Indigo color */
+  font-weight: bold;              /* Bold text */
+  text-align: center;             /* Center the text horizontally */
+  margin-bottom: 20px;            /* Space between the text and the next component */
+  font-family: 'Arial', sans-serif; /* Font family */
+}
+.textbox {
+  width: 400px;      /* Set the width of the text box */
+  height: 50px;      /* Set the height of the text box */
+  font-size: 18px;   /* Increase the font size */
+  padding: 10px;     /* Add padding inside the text box */
+  border-radius: 5px; /* Optional: rounded corners */
+  border: 1px solid #ccc; /* Optional: border color */
+}
+
+.pros-cons-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.pros-section, .cons-section {
+  width: 45%;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.pros-section {
+  background-color: #e0fbe0; /* Light green for pros */
+  border: 2px solid #4CAF50;
+}
+
+.cons-section {
+  background-color: #fde0e0; /* Light red for cons */
+  border: 2px solid #F44336;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 10px;
+}
+
+li {
+  font-size: 1.2em;
+  margin: 5px 0;
+}
+
+
+/* Header styling */
+.App-header {
+  background-color: #7d6a8a;  /* Dark background for header */
+  color: white;               /* White text */
+  padding: 20px;
+  width: 100%;                 /* Ensure header takes full width */
+}
+
+.App-header h1 {
+  font-size: 2rem; /* Make header text larger */
+  margin: 0; /* Remove extra margin */
+}
+
+/* Optional background for the entire page */
+body {
+  background-color: #9c84a7;  /* Light blue background for the page */
+  color: #333;               /* Dark text color for better readability */
+  margin: 0;
+  font-family: Arial, sans-serif; /* Use a clean font */
+}
+
+/* button becomes dark blue when selected */
+.selected {
+  background-color: #333;
+  color: white;
+}
